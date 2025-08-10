@@ -20,4 +20,8 @@ public class Encomendas {
             valorTotal += p.getValor();
         }
     }
+    
+    public float getValorTotal() {
+        return valorTotal;
+    }
 }
